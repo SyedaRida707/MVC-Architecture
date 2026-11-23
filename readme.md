@@ -1,4 +1,4 @@
-# Express.js MVC Architecture – Beginner Notes
+# Express.js MVC Architecture
 
 ## 1. What is Express.js?
 
@@ -162,7 +162,9 @@ It converts incoming JSON request data into a JavaScript object so we can access
 
 ## 7. What is Express Router?
 
-Express Router allows us to create separate route files instead of writing every route inside server.js.
+Express Router is a built-in feature of Express.js that allows us to create separate route files and organize routes instead of writing all routes inside server.js.
+
+It helps us keep our code clean, organized, and maintainable.
 
 Example:
 ```javascript
