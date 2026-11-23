@@ -190,6 +190,11 @@ The final endpoint becomes:
 ```text
 GET /api/students
 ```
+express.Router() ek separate router object create karta hai.
+
+Is router object ke andar hum apne routes define kar sakte hain.
+
+Ye routes hum server.js mein likhne ke bajaye separate file mein likhte hain.
 
 ## 8. Important Request and Response Objects
 
